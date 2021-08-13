@@ -1,10 +1,10 @@
 import random
 choices = ["Rock", "Paper", "Scissors"]
-computer = random.choice(choices)
 player = False
 computer_score = 0
 player_score = 0
 while True:
+    computer = random.choice(choices)
     player = input("Rock, Paper or Scissors? ").capitalize()
     if player == computer:
         print("Tie!")
